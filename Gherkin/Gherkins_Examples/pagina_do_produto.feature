@@ -1,4 +1,4 @@
-#language; pt-br
+#language: pt-br
 @regression
 @pdp
 
