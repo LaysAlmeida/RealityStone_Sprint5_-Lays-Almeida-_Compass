@@ -1,8 +1,12 @@
-default: -p prd
+default: -p prd -p chrome
 default_hml: -p hml
 #Enviroments
 hml: ENVIROMENT="hml"
 prd: ENVIROMENT="prd"
+
+#Browsers
+chrome: BROWSER="chrome"
+
 
 #Visual Mode
 headless: HEADLESS="true"
