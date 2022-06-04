@@ -30,7 +30,7 @@
 
 <h3>✳ | Capybara e Cucumber</h3>
    <ul>
-     <li>Utilizados para criação de cenários de testes</li>
+     <li>Utilizados para criação de cenários de testes.</li>
   </ul>    
 </div>
 <div>
