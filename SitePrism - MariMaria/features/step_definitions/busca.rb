@@ -1,18 +1,18 @@
 Dado('que esteja na home') do
     @home_page = Pages::Home.new
     @home_page.load
-   
   end
   
 Quando('realizar uma busca por um produto existente') do
-    @home_page.search_for('olhos')
+    @product_for_search = Factory::Static.static_data('valid_product')
+    @home_page.search_for(@product_for_search)
     @search_results_page = Pages::SearchResults.new
    
   end
   
 Então('deverão retornar os resultados digitados na busca') do
     expect(@search_results_page).to have_products
-    expect(@search_results_page.products.all_there?).to be_truthy
+    expect(@search_results_page.products).to be_truthy
   end
 
 Quando('buscar pelo produto {string}') do |product|

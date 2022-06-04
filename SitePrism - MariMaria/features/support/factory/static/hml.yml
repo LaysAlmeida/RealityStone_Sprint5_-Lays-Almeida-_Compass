@@ -1,0 +1,4 @@
+valid_product: 'Olhos'
+    user_for_login:
+        email: 'teste@compass.com.br'
+        password: '1234567890.'
