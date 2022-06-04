@@ -1,0 +1,4 @@
+
+class GoogleResults < BasePage
+
+end
